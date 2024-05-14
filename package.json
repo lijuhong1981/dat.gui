@@ -1,6 +1,6 @@
 {
   "name": "@lijuhong1981/dat.gui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "build/dat.gui.js",
   "module": "build/dat.gui.esm.js",

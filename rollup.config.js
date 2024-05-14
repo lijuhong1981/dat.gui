@@ -6,7 +6,7 @@ import sass from 'rollup-plugin-sass';
 const output = (file, format, sourcemap) => ({
     input: './src/dat/index.js',
     output: {
-        name: 'dat.gui',
+        name: 'dat',
         file,
         format,
         sourcemap,
