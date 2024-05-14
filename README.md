@@ -11,6 +11,7 @@ Get started with dat.GUI by reading the [API documentation](API.md).
 ### 2024.5.14
 
 GUI下新增.removeAllControllers() .removeAllFolders() .removeAll()方法;
+
 Controller下新增.hide() .show()方法;
 
 ## Packaged Builds
