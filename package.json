@@ -11,7 +11,7 @@
     "publish": "npm publish --access public"
   },
   "author": "lijuhong1981 <lijuhong@hotmail.com>",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "publishConfig": {
     "access": "public"
   },
