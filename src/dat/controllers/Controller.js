@@ -69,7 +69,7 @@ class Controller {
 
   /**
    * Specify that a function fire every time someone "finishes" changing
-   * the value wih this Controller. Useful for values that change
+   * the value with this Controller. Useful for values that change
    * incrementally like numbers or strings.
    *
    * @param {Function} fnc This function will be called whenever
@@ -122,16 +122,18 @@ class Controller {
   }
 
   /**
-  * Hides the GUI.
-  */
+   * Hides the Controller.
+   * @returns {Controller} this
+   */
   hide() {
     this.domElement.style.display = 'none';
     return this;
   }
 
   /**
-  * Shows the GUI.
-  */
+   * Shows the Controller.
+   * @returns {Controller} this
+   */
   show() {
     this.domElement.style.display = '';
     return this;
