@@ -297,8 +297,8 @@ An "abstract" class that represents a given property of an object.
     * [.getValue()](#Controller+getValue) ⇒ <code>Object</code>
     * [.updateDisplay()](#Controller+updateDisplay) ⇒ [<code>Controller</code>](#Controller)
     * [.isModified()](#Controller+isModified) ⇒ <code>boolean</code>
-    * [.hide()](#Controller+hide)
-    * [.show()](#Controller+show)
+    * [.hide()](#Controller+hide) ⇒ [<code>Controller</code>](#Controller)
+    * [.show()](#Controller+show) ⇒ [<code>Controller</code>](#Controller)
 
 <a name="new_Controller_new"></a>
 
@@ -374,7 +374,7 @@ Specify that a function fire every time someone changes the value withthis Cont
 <a name="Controller+onFinishChange"></a>
 
 ### controller.onFinishChange(fnc) ⇒ [<code>Controller</code>](#Controller)
-Specify that a function fire every time someone "finishes" changingthe value wih this Controller. Useful for values that changeincrementally like numbers or strings.
+Specify that a function fire every time someone "finishes" changingthe value with this Controller. Useful for values that changeincrementally like numbers or strings.
 
 **Kind**: instance method of [<code>Controller</code>](#Controller)  
 **Returns**: [<code>Controller</code>](#Controller) - this  
@@ -415,16 +415,18 @@ Refreshes the visual display of a Controller in order to keep syncwith the obje
 **Returns**: <code>boolean</code> - true if the value has deviated from initialValue  
 <a name="Controller+hide"></a>
 
-### controller.hide()
-Hides the GUI.
+### controller.hide() ⇒ [<code>Controller</code>](#Controller)
+Hides the Controller.
 
 **Kind**: instance method of [<code>Controller</code>](#Controller)  
+**Returns**: [<code>Controller</code>](#Controller) - this  
 <a name="Controller+show"></a>
 
-### controller.show()
-Shows the GUI.
+### controller.show() ⇒ [<code>Controller</code>](#Controller)
+Shows the Controller.
 
 **Kind**: instance method of [<code>Controller</code>](#Controller)  
+**Returns**: [<code>Controller</code>](#Controller) - this  
 <a name="NumberController"></a>
 
 ## NumberController ⇐ <code>dat.controllers.Controller</code>
