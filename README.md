@@ -60,7 +60,7 @@ npm run build
 ## npm scripts
 
 - npm run build - Build development and production version of scripts.
-- npm run dev - Build development version of script and watch for changes.
+- npm run build-docs - Build API markdown docment.
 
 ## Working with Content Security Policy
 
